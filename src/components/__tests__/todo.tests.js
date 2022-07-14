@@ -30,10 +30,3 @@ test("matches snapshot", () => {
   expect(tree).toMatchSnapshot();
   console.log(tree);
 });
-
-// test("matches snapshot", () => {
-//   const todo = { id: 2, title: "label packages", completed: true };
-//   const tree = renderer.create(<Todo todo={todo} />).toJSON();
-//   expect(tree).toMatchInlineSnapshot();
-//   console.log(tree);
-// });
